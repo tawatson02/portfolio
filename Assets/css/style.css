@@ -1,14 +1,25 @@
-
-.box-1{
-    font-size: x-large;
-background-color: blue;
+:root {
+    --font: sans-serif;
 }
-section:nth-child(1) {
-background-color: aqua;
-}
-body{
-    background-color: blueviolet;
+::selection {
+   color: blue; 
 }
 header {
-    color: rgb(78, 36, 36);
+    font-family: var(--font);
+    background-color:black;
+    color: white;
+}
+.nav-top {
+    font-family: var(--font);
+    color: white;
+    background-color: brown;
+}
+body {
+    font-family: var(--font);
+    color: white;
+    background-color:rgb(47, 41, 54);
+}
+.nav-bottom {
+    background-color: aqua;
+    color: white;
 }
