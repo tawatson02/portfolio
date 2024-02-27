@@ -8,6 +8,7 @@ header {
     font-family: var(--font);
     background-color:black;
     color: white;
+font-size:30px; 
 }
 .nav-top {
     font-family: var(--font);
