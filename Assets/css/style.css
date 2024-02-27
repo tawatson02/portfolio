@@ -1,0 +1,14 @@
+
+.box-1{
+    font-size: x-large;
+background-color: blue;
+}
+section:nth-child(1) {
+background-color: aqua;
+}
+body{
+    background-color: blueviolet;
+}
+header {
+    color: rgb(78, 36, 36);
+}
