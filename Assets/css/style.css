@@ -61,8 +61,18 @@ a:hover {
 body {
     display: block;
     font-family: var(--font);
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgb(47, 41, 54);
+}
+.grid-container {
+    
+    min-width: 1000px;
+    margin:0 0 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 500px 250px 250px;
+    grid-gap: 10px;
+    
 }
 
 .nav-bottom {
@@ -72,8 +82,54 @@ body {
 }
 
 .box-1 {
-    background: url("/Assets/images/images.jpg");
+    
+    background: url("/Assets/images/ocean-waves-nature-scenery-8K-167.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    grid-column: 1 / span 4;
 
+}
+
+ .box-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+    grid-column:  span 2 ;
+    
+
+}
+.box-3{
+    
+    background-color: purple;
+    grid-column: span 2;
+
+}
+ .box-4{
+    
+    background-color: red;
+    grid-column:  span 2;
+
+}
+.box-5{
+    
+    background-color: grey;
+    grid-column: span 2;
+
+}
+.h2-grid{
+    border-right: 5px solid peachpuff;
+    min-width: 290px;
+}
+.tired{
+    display: flex;
+}
+article{
+    position: relative;
+}
+.protitle{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: chocolate;
+    padding: 2%;
 }
